@@ -1,0 +1,14 @@
+name: QuietBan
+main: com.dain.quietban.QuietBanPlugin
+version: 1.0.0
+author: dain
+description: "Тихая проверка банов из базы данных при входе в лобби и отключение игрока с причиной на его экране"
+commands:
+  quietban:
+    description: Управление QuietBan (reload / check)
+    usage: /<command> <reload|check <ник>>
+    permission: quietban.admin
+permissions:
+  quietban.admin:
+    description: Доступ к команде /quietban
+    default: op
