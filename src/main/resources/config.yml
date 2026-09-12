@@ -43,3 +43,7 @@ database:
 settings:
   # Формат дат (выдача бана и окончание) на экране кика и в /quietban check
   date-format: "dd.MM.yyyy HH:mm"
+
+tps-protection:
+  enabled: true
+  min-tps-threshold: 18.0
